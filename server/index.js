@@ -9,7 +9,7 @@ app.use(express.json())
 
 let friends = ["Nitin","Eric", "Jeddy", "Cameron", "Riley"];
 
-
+//test
 app.get('/api/users', (req, res) =>{
 
 res.status(200).send(friends)
